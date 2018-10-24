@@ -75,3 +75,20 @@ menos el id="referencias"*/
 section:not(#referencias){
 	color: blue;
 }
+
+li:nth-child(odd){
+	color: green;
+} /*impar*/
+li:nth-child(even){ /*pares*/
+	color: blue;
+}
+li:nth-child(5){ /*quinto elemento*/
+	color: red;
+}
+li:nth-last-child(1){
+	color: purple;
+}
+p:first-line{
+	color: red;
+	font-weight: bold;
+}
