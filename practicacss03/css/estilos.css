@@ -10,6 +10,7 @@ header{
 }
 header img{
 	margin-left: 165px;
+	padding-top: 10px;
 }
 header input{
 	height: 51px;
@@ -38,6 +39,11 @@ header input{
 }
 #seccion01 ul li{
 	font-size: 1.5em;
+}
+#seccion02{
+	border-top-style: solid;
+	border-top-color: gray;
+	border-top-width: 2px;
 }
 .color_gris{
 	background: #545454;
@@ -84,4 +90,67 @@ header input{
 }
 .letra_comun{
 	color: #838383;
+}
+.news{
+	position: relative;
+	margin: 10px 200px 20px 200px; 
+}
+.news div{
+	width: 500px;
+	margin-left: -120px;
+	padding-left: 100px;
+	border-top-style: dotted;
+	border-top-color: rgba(255, 255, 255, 0.287);
+	border-top-width: 5px;
+	color: #7d7d7d;
+	font-family: arial;
+}
+.news span{
+	color: white;
+}
+#readMore{
+	text-align: right;
+	padding-left: 400px;
+}
+.links{
+	position: relative;
+	margin: 10px 150px 20px 100px; 
+}
+.links div{
+	width: 500px;
+	margin-left: -120px;
+	padding-left: 100px;
+	border-top-style: dotted;
+	border-top-color: rgba(255, 255, 255, 0.287);
+	border-top-width: 5px;
+	color: #7d7d7d;
+	font-family: arial;
+}
+.links span{
+	color: white;
+}
+.contact{
+	position: relative;
+	margin: 10px 100px 20px 100px; 
+}
+.contact div{
+	width: 500px;
+	margin-left: -120px;
+	padding-left: 100px;
+	border-top-style: dotted;
+	border-top-color: rgba(255, 255, 255, 0.287);
+	border-top-width: 5px;
+}
+.contact span:nth-child(2n-8){
+	color: white;
+	font-size: 20px;
+}
+.contact li{
+	color: rgb(85, 85, 85);
+}
+.telefono{
+	color: gray;
+}
+a{
+	color: #466576;
 }
