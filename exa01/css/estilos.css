@@ -1,0 +1,139 @@
+header{
+	border: 1px solid black;
+	background: #3a3a3a;
+	height: 60px;
+}
+body{
+	font-family: arial;
+}
+header input{
+	position: relative;
+	width: 100px;
+	height: 200px;
+	bottom: 10px;
+	margin-left: 10px;
+	padding-left: 20px;
+	display: inline-block;
+}
+a{
+	position: relative;
+	color: white;
+	text-decoration: none;
+	margin-top: 20px;
+	font-weight: lighter;
+	margin-left: 30px;
+}
+a span{
+	position: relative;
+	bottom: 10px;
+}
+#logo{
+	margin-right: 800px;
+}
+#section1{
+	background: #e82585;
+	height: 120px;
+}
+#offer{
+	position: relative;
+	top: 40px;
+	color: white;
+	font-size: 30px;
+	padding-left: 20px;
+}
+#counter{
+	position: relative;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+#counter span{
+	font-weight: bold;
+}
+#saleText{
+	font-size: 20px; 
+	font-weight: bold;
+}
+#promo{
+	position: relative;
+	width: 500px;
+	text-align: center;
+	color: white;
+	padding-left: 1400px;
+}
+#promo div{
+	position: relative;
+	background: white;
+	color: #e82585;
+	bottom: 70px;
+	font-weight: bold;
+	width: 400px;
+	height: 50px;
+	vertical-align: center;
+}
+#promo div p{
+	position: relative;
+	top: 20px;
+	font-size: 20px;
+}
+#promo div span{
+	position: relative;
+	color: white;
+	padding-left: 420px;
+	font-size: 30px;
+	bottom: 40px;
+}
+#section2{
+	background-image: url("img/fondo.png"); 
+	background-color: #262626;
+	height: 600px;
+}
+#mainArticle{
+	position: relative;
+	top: 60px;
+	left: 60px;
+	font-size: 40px;
+	color: white;
+}
+#mainArticle span{
+	font-weight: bold;
+}
+#mainArticle span:nth-child(1){
+	position: relative;
+	font-size: 60px;
+}
+#mainArticle div{
+	position: relative;
+	background: #35c8cc;
+	color: white;
+	font-size: 30px;
+	bottom: 30px;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: bold;
+	width: 400px;
+	height: 50px;
+}
+#books{
+	position: relative;
+	padding-left: 1000px;
+	bottom: 400px;
+}
+#books img{
+	width: 60%;
+	height: 60%;
+}
+#section3{
+	background: #f18c02;
+	height: 220px;
+	color: white;
+}
+#footArticle{
+	position: relative;
+	top: 20px;
+}
+#bigWhite{
+	position: relative;
+	top: 40px;
+	font-size: 70px;
+}
