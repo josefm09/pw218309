@@ -1,22 +1,8 @@
 window.onload = function(){
 	var operador = "";
-	var operando1 = document.getElementById("operando1");
-	var operando2 = document.getElementById("operando2");
 	var resultado = document.getElementById("resultado");
-	var numeros = function(){
-		var valor = this.value;
-		if (operador == "") { //Operando1
-			if (operando1.value == "0") {
-				operando1.value = "";
-			}
-			operando1.value += valor;
-		}else{ //operando2
-			if (operando2.value == "0") {
-				operando2.value = "";
-			}
-			operando2.value += valor;
-		}
-	}
+	var operando1 = "";
+	var operando2 = "";
 
 	var cero = document.getElementById("cero");
 	cero.addEventListener("click",numeros);
@@ -63,6 +49,15 @@ window.onload = function(){
 	igual.addEventListener("click",resultadoIgual);
 	reiniciar.addEventListener("click",reinicio);
 
+	var numeros = function(){
+		var valor = this.value;
+		if (operador == "") {
+			if (resultado.value == "0") {
+				resultado.value = "";
+			}
+			resultado.value += valor;
+		}
+	}
 	var colorAmarillo = function(){
 		this.style.background = "yellow";
 	}
@@ -73,18 +68,14 @@ window.onload = function(){
 		operador = this.value;
 	}
 	var resultadoIgual = function(){
-		
+		switch(operador){
+			case "+":
+			
+		}
 	}
 	var reinicio = function(){
-		operando1.value = "0";
-		operando2 = "0";
-		resultado = "0";
+		resultado.value = "0";
 		operador = "";
 	}
-
-	operando1.addEventListener("focus",colorAmarillo);
-	operando1.addEventListener("focusout",colorBlanco);	
-	operando2.addEventListener("focus",colorAmarillo);
-	operando2.addEventListener("focusout",colorBlanco);	
 
 }
