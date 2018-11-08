@@ -1,0 +1,25 @@
+{
+  "name": "npmproyecto",
+  "version": "0.0.0",
+  "description": "Aprender a instalar paquetes node y proyectos",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "empaqueta": "electron-packager . Calculadora --overwrite"
+  },
+  "keywords": [
+    "Inicio",
+    "node",
+    "npm",
+    "pw",
+    "cien"
+  ],
+  "author": "Jose Carlos Flores Moran",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.8",
+    "electron-packager": "^12.2.0",
+    "electron-require": "^0.3.0"
+  }
+}
