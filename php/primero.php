@@ -1,16 +1,17 @@
 <?php 
-$servidor = "localhost";
-$usuario = "root";
-$password = "";
-$basedatos = "pw09";''
+include('conexion.php');
 
-$conexion = mysqli_connect($servidor,$usuario,$password,$basedatos);
+$ncontrol = $_POST['ncontrol'];
+$nombre = $_POST['nombre'];
+$apellido = $_POST['apellido'];
+$edad = $_POST['edad'];
+
 $sql = "select ncontrol, nombre, apellido, edad, from alumnos";
 $resultado = mysqli_query($conexion,$sql);
 $arregloDatos = array();
 if (msyqli_num_rows($resultado) > 0) {
 	while ($registro=mysqli_fetch_array($resultado)) {
-		$arregloDatos[] = $registro;
+    	array_push($arregloDatos, $registro )
 	}
 }
 
